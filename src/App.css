@@ -112,3 +112,25 @@
   }
 }
 
+/* Styles for PlatformSlide Component */
+
+.logo-slide {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.logo-slide img {
+  width: 150px; 
+  height: 150px; 
+  object-fit: contain; 
+  border-radius: 8px; 
+  transition: transform 0.3s;
+} 
+
+.logo-slide img:hover {
+  transform: scale(1.1);
+}
