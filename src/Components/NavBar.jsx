@@ -1,15 +1,17 @@
-import React from 'react'
+import DropButton from './DropButton'
 
 export default function NavBar() {
   return (
-    <div>
+    <div className='nav'>
       <img className='logo' src="" alt="" />
       <ul>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">Resource</a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">Our Services</a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">Company</a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">Mobile App</a></li>
+        <DropButton  title='Resource'/>
+        <DropButton  title='Our Services'/>
+        <DropButton  title='Company'/>
+        <DropButton  title='Mobile App'/>
       </ul>
+      <button className='btn'><DropButton  title='Client Login'/></button>
+      
     </div>
   )
 }
