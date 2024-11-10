@@ -1,6 +1,6 @@
-import homeImage from '../assets/home.png'
 
-export default function Home({heading, par, btnOne, btnTwo}) {
+
+export default function Home({heading, par, btnOne, btnTwo, imgScr}) {
   return (
     <div className='home'>
         <div className='left'>
@@ -11,7 +11,7 @@ export default function Home({heading, par, btnOne, btnTwo}) {
                 <button className='login-btn'>{btnTwo}</button>
             </div>
         </div>
-        <div><img src={homeImage} alt="a hand with directional arrow" /></div>
+        <div><img src={imgScr} alt="a hand with directional arrow" /></div>
     </div>
   )
 }
