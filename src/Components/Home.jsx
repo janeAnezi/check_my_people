@@ -3,7 +3,7 @@ import homeImage from '../assets/home.png'
 export default function Home() {
   return (
     <div className='home'>
-        <div>
+        <div className='left'>
             <h1>Confirming your staff identity and credibility</h1>
             <p>An all in one platform to help you verify & confirm that employees are who they say they are.</p>
             <div>
