@@ -3,7 +3,7 @@ import Card from './Card'
 
 export default function Platform() {
   return (
-    <div >
+    <div className='platform'>
       <p className='par'>An all in one platform to help you verify & confirm that employees are who they say they are.</p>
       <div className='platform-cards'>
         <Card title='01'> 

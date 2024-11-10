@@ -70,6 +70,15 @@
 
 /* Styles for Platform Component */
 
+.platform {
+  margin-bottom: 80px;
+}
+
+.par {
+  font-size: 26px;
+  margin-top: 70px;
+  text-align: center;
+}
 .platform-cards {
   display: flex;
   gap: 20px;
@@ -103,9 +112,3 @@
   }
 }
 
-
-.par {
-  font-size: 26px;
-  margin-top: 70px;
-  text-align: center;
-}
