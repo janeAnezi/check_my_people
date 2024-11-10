@@ -5,7 +5,7 @@ export default function Platform() {
   return (
     <div>
       <p>An all in one platform to help you verify & confirm that employees are who they say they are.</p>
-      <div className=''>
+      <div className='platform-cards'>
         <Card title='01'> 
             <img src={Imag01} alt="Person verification status" />
             <h2>Verify Identity</h2>
