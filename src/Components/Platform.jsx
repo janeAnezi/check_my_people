@@ -1,14 +1,26 @@
-
+import Imag01 from '../assets/cardimag01.png'
 import Card from './Card'
 
 export default function Platform() {
   return (
     <div>
       <p>An all in one platform to help you verify & confirm that employees are who they say they are.</p>
-      <div>
-        <Card title='01' />
-        <Card title='02'/>
-        <Card title='03'/>
+      <div className=''>
+        <Card title='01'> 
+            <img src={Imag01} alt="Person verification status" />
+            <h2>Verify Identity</h2>
+            <p>We offer our service via our web platform as well as Online App (CheckMyPeople) on Play Store and App Store.</p>
+        </Card>
+        <Card title='02'>
+            <img src={Imag01} alt="Person verification status" />
+            <h2>Verify Identity</h2>
+            <p>We offer our service via our web platform as well as Online App (CheckMyPeople) on Play Store and App Store.</p>
+        </Card>
+        <Card title='03'>
+            <img src={Imag01} alt="Person verification status" />
+            <h2>Verify Identity</h2>
+            <p>We offer our service via our web platform as well as Online App (CheckMyPeople) on Play Store and App Store.</p>
+        </Card>
       </div>
     </div>
   )
