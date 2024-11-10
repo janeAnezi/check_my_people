@@ -9,6 +9,12 @@
   display: flex;
   justify-content: space-around;
   padding: 20px 0;
+  align-items: center;
+
+  img {
+    width: 200px;
+    height: 80px;
+  }
 
   ul {
     list-style: none;
@@ -17,7 +23,7 @@
   }
 
   .btn {
-    background-color: rgba(4, 76, 4, 0.427);
+    background-color: rgba(5, 100, 5, 0.601);
     border: none;
   }
 }
