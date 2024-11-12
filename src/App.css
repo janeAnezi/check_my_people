@@ -174,3 +174,24 @@
     }
   }
 }
+
+.signupcard {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin: 60px;
+  border-radius: 10px;
+
+  p{
+    width: 40%;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  button {
+    padding: 12px 18px;
+  }
+}
