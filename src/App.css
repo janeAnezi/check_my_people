@@ -134,3 +134,43 @@
 .logo-slide img:hover {
   transform: scale(1.1);
 }
+
+.home-driver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+  background-color: rgb(243, 250, 248);
+  height: 100vh;
+
+  .left {
+
+    h1 {
+      font-size: 40px;
+      color: rgb(79, 78, 78);
+    } 
+    
+    p {
+      font-size: 30px;
+      padding: 20px 0;
+      color: rgb(60, 60, 60);
+    }
+
+    .get-started-btn{
+      background-color: green;
+      color: white;
+      margin-left: 15px;
+      padding: 8px 15px;
+      font-size: 20px;
+      border: 1px solid green;
+    }
+
+    .login-btn {
+      background-color: transparent;
+      margin-left: 15px;
+      padding: 8px 15px;
+      font-size: 20px;
+      border: 1px solid gray;
+    }
+  }
+}
