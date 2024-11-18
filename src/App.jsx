@@ -18,11 +18,11 @@ function App() {
   return (
     <>
       <NavBar />
-      <Home heading='Confirming your staff identity and credibility' par='An all in one platform to help you verify & confirm that employees are who they say they are.' imgScr={homeImage} btnOne='Get Started' btnTwo='Login' />
+      <Home heading="Verify the identity and credibility of your staff with confidence."par='"A comprehensive platform to verify and confirm employee authenticity."' imgScr={homeImage} btnOne='Get Started' btnTwo='Login' />
       <Platform />
-      <ChildNanny heading='Verify your Child Nanny with CheckMyPeople' par='People have a need for trust, security, and peace of mind within their homes. They seek assurance that the individuals they hire are trustworthy, reliable, and pose no threat to their safety or the safety of their families.' imgScr={nannyImg} btnOne='Get Started' btnTwo='Login'/>
-      <Cook heading='Verify your Cook & Househelp with CheckMyPeople' par='Employee identification and verification helps allay security concerns by verifying the background and identity of potential employees, reducing the risk of hiring individuals with criminal records or questionable backgrounds.' imgScr={cookImg} btnOne='Get Started' btnTwo='Login'/>
-      <Driver heading='Verify your Driver and Security Staff with CheckMyPeople' par='Employee identification and Verification can help validate the qualifications, skills, and work experience of potential employees, ensuring that they possess the necessary expertise for the job.' imgScr={driverImg} btnOne='Get Started' btnTwo='Login'/>
+      <ChildNanny heading='Verify your identity with Trueid' par="TrueID provides a secure and reliable solution to verify your identity with ease. Our platform ensures authenticity and builds trust, empowering you to prove who you are confidently." imgScr={nannyImg} btnOne='Get Started' btnTwo='Login'/>
+      <Cook heading='Verify your Employee with Trueid' par="TrueID offers a seamless and trustworthy way to verify your employees' identities. Ensure credibility, reduce risks, and build a dependable workforce with our reliable verification platform." imgScr={cookImg} btnOne='Get Started' btnTwo='Login'/>
+      <Driver heading='Verify your Driver and Security Staff with Trueid' par='Employee identification and Verification can help validate the qualifications, skills, and work experience of potential employees, ensuring that they possess the necessary expertise for the job.' imgScr={driverImg} btnOne='Get Started' btnTwo='Login'/>
       <SignUpCard />
       <Footer />
     </>

@@ -1,5 +1,5 @@
 import DropButton from './DropButton'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logos.png'
 
 export default function NavBar() {
   return (
