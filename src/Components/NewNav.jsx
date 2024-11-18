@@ -56,7 +56,7 @@ const NewNav = () => {
           </div>
         </li>
         <li className="hover:text-green-500 relative group">
-          <a href="#pages" className="font-semibold">PAGES</a>
+          <a href="#pages" className="font-semibold">Company</a>
           {/* Dropdown */}
           <div className="hidden group-hover:block absolute top-8 left-0 bg-white shadow-lg p-2 text-sm">
             <a href="#blog" className="block px-4 py-2 hover:bg-gray-100">Blog</a>
@@ -64,13 +64,13 @@ const NewNav = () => {
           </div>
         </li>
         <li className="hover:text-green-500">
-          <a href="#contact" className="font-semibold">CONTACT</a>
+          <a href="#contact" className="font-semibold">Mobile App</a>
         </li>
       </ul>
 
-      {/* Add Property Button */}
+     
       <button className="bg-green-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-green-600">
-        Add Property
+        Client Login
       </button>
     </nav>
   );
