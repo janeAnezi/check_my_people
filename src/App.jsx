@@ -1,4 +1,4 @@
-import NavBar from './Components/NavBar'
+// import NavBar from './Components/NavBar'
 import './App.css'
 import Home from './Components/Home'
 import Driver from './Components/Driver'
@@ -11,6 +11,8 @@ import driverImg from '../src/assets/driver.png'
 import Cook from './Components/Cook'
 import SignUpCard from './Components/SignUpCard'
 import Footer from './Components/Footer'
+import NewNav from './Components/newNav'
+
 
 function App() {
 
@@ -19,6 +21,9 @@ function App() {
     <>
       <NavBar />
       <Home heading="Verify the identity and credibility of your staff with confidence."par='"A comprehensive platform to verify and confirm employee authenticity."' imgScr={homeImage} btnOne='Get Started' btnTwo='Login' />
+      {/* <NavBar /> */}
+      <NewNav />
+      <Home heading='Confirming your staff identity and credibility' par='An all in one platform to help you verify & confirm that employees are who they say they are.' imgScr={homeImage} btnOne='Get Started' btnTwo='Login' />
       <Platform />
       <ChildNanny heading='Verify your identity with Trueid' par="TrueID provides a secure and reliable solution to verify your identity with ease. Our platform ensures authenticity and builds trust, empowering you to prove who you are confidently." imgScr={nannyImg} btnOne='Get Started' btnTwo='Login'/>
       <Cook heading='Verify your Employee with Trueid' par="TrueID offers a seamless and trustworthy way to verify your employees' identities. Ensure credibility, reduce risks, and build a dependable workforce with our reliable verification platform." imgScr={cookImg} btnOne='Get Started' btnTwo='Login'/>
