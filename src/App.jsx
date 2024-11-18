@@ -1,4 +1,4 @@
-import NavBar from './Components/NavBar'
+// import NavBar from './Components/NavBar'
 import './App.css'
 import Home from './Components/Home'
 import Driver from './Components/Driver'
@@ -11,13 +11,16 @@ import driverImg from '../src/assets/driver.png'
 import Cook from './Components/Cook'
 import SignUpCard from './Components/SignUpCard'
 import Footer from './Components/Footer'
+import NewNav from './Components/newNav'
+
 
 function App() {
 
 
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
+      <NewNav />
       <Home heading='Confirming your staff identity and credibility' par='An all in one platform to help you verify & confirm that employees are who they say they are.' imgScr={homeImage} btnOne='Get Started' btnTwo='Login' />
       <Platform />
       <ChildNanny heading='Verify your Child Nanny with CheckMyPeople' par='People have a need for trust, security, and peace of mind within their homes. They seek assurance that the individuals they hire are trustworthy, reliable, and pose no threat to their safety or the safety of their families.' imgScr={nannyImg} btnOne='Get Started' btnTwo='Login'/>
