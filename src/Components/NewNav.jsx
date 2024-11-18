@@ -48,11 +48,11 @@ const NewNav = () => {
           <a href="#about" className="font-semibold">ABOUT</a>
         </li>
         <li className="hover:text-green-500 relative group">
-          <a href="#property" className="font-semibold">PROPERTY</a>
+          <a href="#property" className="font-semibold">Our Services</a>
           {/* Dropdown */}
           <div className="hidden group-hover:block absolute top-8 left-0 bg-white shadow-lg p-2 text-sm">
-            <a href="#residential" className="block px-4 py-2 hover:bg-gray-100">Residential</a>
-            <a href="#commercial" className="block px-4 py-2 hover:bg-gray-100">Commercial</a>
+            <a href="#residential" className="block px-4 py-2 hover:bg-gray-100">Identity Verification</a>
+            <a href="#commercial" className="block px-4 py-2 hover:bg-gray-100">Background Check</a>
           </div>
         </li>
         <li className="hover:text-green-500 relative group">
