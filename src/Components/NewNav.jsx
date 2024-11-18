@@ -39,13 +39,11 @@ const NewNav = () => {
         CheckMyPeople
       </div>
 
-      {/* Links */}
+      {/* Nav Links */}
       <ul className="flex space-x-6 text-gray-800">
+        
         <li className="hover:text-green-500">
-          <a href="#home" className="font-semibold">HOME</a>
-        </li>
-        <li className="hover:text-green-500">
-          <a href="#about" className="font-semibold">ABOUT</a>
+          <a href="#about" className="font-semibold">Resources</a>
         </li>
         <li className="hover:text-green-500 relative group">
           <a href="#property" className="font-semibold">Our Services</a>
