@@ -213,7 +213,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .footer-left {
@@ -244,6 +244,7 @@
 .footer-links {
   display: flex;
   justify-content: space-between;
+  margin: 0 10%;
 }
 
 .footer-column {
