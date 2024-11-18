@@ -36,7 +36,7 @@ const NewNav = () => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 20v-6m0 0V4m0 10l4-4m-4 4l-4-4" />
           </svg>
         </div>
-        Makaan
+        CheckMyPeople
       </div>
 
       {/* Links */}
