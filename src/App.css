@@ -34,17 +34,15 @@
 
 .home {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 60px;
   background-color: rgb(243, 250, 248);
-  height: 100vh;
+  height: 120vh;
 
   .left {
 
     h1 {
-      font-size: 80px;
+      font-size: 40px;
       color: rgb(79, 78, 78);
+      padding-top: 80px;
     } 
     
     p {
@@ -141,17 +139,15 @@
 
 .home-driver {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 60px;
   background-color: rgb(243, 250, 248);
-  height: 100vh;
+  height: 150vh;
 
   .left {
 
     h1 {
       font-size: 40px;
       color: rgb(79, 78, 78);
+      padding-top: 80px;
     } 
     
     p {

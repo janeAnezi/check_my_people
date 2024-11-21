@@ -19,7 +19,7 @@ const NewNav = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-2 transition-all duration-500 ${
-        scrolled ? 'w-full bg-white shadow-lg' : 'w-[90%] bg-white m-auto mt-4'
+        scrolled ? 'w-full bg-white shadow-lg' : 'w-[90%] bg-white m-auto mt-2 text-sm'
       }`}
     >
       {/* Logo */}
