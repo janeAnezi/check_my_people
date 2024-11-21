@@ -179,12 +179,12 @@
   background-color: green;
   color: white;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
   margin: 60px;
   border-radius: 10px;
 
   p{
-    width: 40%;
+    width: 60%;
     margin: auto;
     padding: 20px 0;
     font-size: 20px;
@@ -192,7 +192,11 @@
   }
 
   button {
-    padding: 12px 18px;
+    padding: 4px 8px;
+    background-color: white;
+    color: #333;
+    border-radius: 8px;
+    font-size: 16px;
   }
 }
 

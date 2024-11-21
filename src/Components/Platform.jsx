@@ -13,22 +13,27 @@ export default function Platform() {
   return (
     <div>
         <div className='platform'>
-        <p className='par'>An all in one platform to help you verify & confirm that employees are who they say they are.</p>
+        <p className='par'>"An all-in-one platform designed to verify and confirm the authenticity of your employees, ensuring they are exactly who they claim to be."</p>
         <div className='platform-cards'>
             <Card title='01'> 
                 <img src={Imag01} alt="Person verification status" />
-                <h2>Verify Identity</h2>
-                <p>We offer our service via our web platform as well as Online App (CheckMyPeople) on Play Store and App Store.</p>
+                <h2>Online Change of Name and Newspaper Publication</h2>  
+                <p>Access our services through our web platform or the Trueid app, available on both the Play Store and App Store.</p>
             </Card>
             <Card title='02'>
                 <img src={Imag01} alt="Person verification status" />
-                <h2>Verify Identity</h2>
-                <p>We offer our service via our web platform as well as Online App (CheckMyPeople) on Play Store and App Store.</p>
+                <h2>Verify National Identity Card</h2>
+                <p>Access our services through our web platform or the Trueid app, available on both the Play Store and App Store.</p>
             </Card>
             <Card title='03'>
                 <img src={Imag01} alt="Person verification status" />
-                <h2>Verify Identity</h2>
-                <p>We offer our service via our web platform as well as Online App (CheckMyPeople) on Play Store and App Store.</p>
+                <h2>Verify Corporate Affairs Commission Registration</h2>
+                <p>Access our services through our web platform or the Trueid app, available on both the Play Store and App Store.</p>
+            </Card>
+            <Card title='04'>
+                <img src={Imag01} alt="Person verification status" />
+                <h2>Online Affidavit</h2>
+                <p>Access our services through our web platform or the Trueid app, available on both the Play Store and App Store.</p>
             </Card>
         </div>
         </div>
