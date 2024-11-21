@@ -1,4 +1,6 @@
-// import NavBar from './Components/NavBar'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import './App.css'
 import Home from './Components/Home'
 import SectionO from './Components/SectionO'
@@ -17,7 +19,7 @@ function App() {
 
   return (
     <>
-      {/* <NavBar /> */}
+      
       <NewNav />
       <Home heading='Confirming your staff identity and credibility' par='An all in one platform to help you verify & confirm that employees are who they say they are.' imgScr={homeImage} btnOne='Get Started' btnTwo='Login' />
       <Platform />
